@@ -99,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #f3c4c4;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #f8d8da 15%,#ebd8cf 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #f8d8da 15%, #ebd8cf 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #f8d8da 15%, #ebd8cf 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #f8d8da 15%, #ebd8cf 85%);
+		background-color: #fff0f0;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #ffa3a9 15%,#ffbc9d 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #ffa3a9 15%, #ffbc9d 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #ffa3a9 15%, #ffbc9d 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #ffa3a9 15%, #ffbc9d 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,8 +120,8 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #ffe1e1;
-		color: rgba(255, 255, 255, 0.65);
+		background-color: #ffd2d2;
+		color: rgba(255, 154, 154, 0.65);
 	}
 
 	body, input, select, textarea {
@@ -3842,3 +3842,36 @@ input, select, textarea {
 			}
 
 		}
+		.info-box {
+			border: 1px solid #ddd; /* Light border */
+			border-radius: 8px; /* Rounded corners */
+			padding: 20px; /* Inner spacing */
+			margin: 20px; /* Space around the box */
+			max-width: 300px; /* Limit width */
+			text-align: center; /* Center the text */
+			background-color: #f9f9f9; /* Light gray background */
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+			transition: transform 0.3s; /* Smooth hover effect */
+		}
+		
+		.info-box a {
+			text-decoration: none; /* Remove underline */
+			color: #333; /* Dark text color */
+			display: block; /* Make the whole box clickable */
+		}
+		
+		.info-box:hover {
+			transform: translateY(-5px); /* Slight lift on hover */
+			box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+		}
+		
+		.info-box h3 {
+			margin: 0 0 10px; /* Space below title */
+		}
+		
+		.info-box p {
+			margin: 0; /* No space around the paragraph */
+			font-size: 0.95em; /* Slightly smaller text */
+			color: #555; /* Lighter text color for summary */
+		}
+		
