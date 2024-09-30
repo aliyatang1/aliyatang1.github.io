@@ -3747,6 +3747,7 @@ input, select, textarea {
     padding: 5em 5em 3em 5em; 
     width: 100%; 
     margin: 0 auto 3em auto; 
+	color: rgb(129, 106, 106)
 }
 /*
 #footer > * {
@@ -3754,6 +3755,17 @@ input, select, textarea {
     margin: 1em; 
 }
 */
+.social-links {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    text-align: center; /* Center align the list items */
+}
+
+.social-links li {
+    display: inline-block; /* Make list items inline */
+    margin: 0 10px; /* Add some spacing between items */
+}
+
 
 #footer .copyright {
     width: 100%;
